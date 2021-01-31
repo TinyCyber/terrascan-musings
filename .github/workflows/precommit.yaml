@@ -13,3 +13,8 @@ jobs:
         path: ~/.cache/pre-commit
         key: pre-commit|${  }|${  }
     - uses: pre-commit/action@v1.0.0
+jobs:
+  test:
+    runs-on: self-hosted
+    env:
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
