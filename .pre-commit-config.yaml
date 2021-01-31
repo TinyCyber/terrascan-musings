@@ -6,3 +6,8 @@ repos:
         pass_filenames: false
         args: [-l=infra] #NOTE: this command should point to the directory containing your .tf files
         verbose: true
+jobs:
+  test:
+    runs-on: self-hosted
+    env:
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
