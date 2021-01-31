@@ -2,7 +2,7 @@ name: pre-commit
 on: [push]
 jobs:
   test:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     env:
       ACTIONS_ALLOW_UNSECURE_COMMANDS: true
     steps:
