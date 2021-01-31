@@ -7,8 +7,8 @@ jobs:
       ACTIONS_ALLOW_UNSECURE_COMMANDS: true
     steps:
     - name: ACTIONS_ALLOW_UNSECURE_COMMANDS
-    id: ACTIONS_ALLOW_UNSECURE_COMMANDS
-    run: echo 'ACTIONS_ALLOW_UNSECURE_COMMANDS=true' >> $GITHUB_ENV 
+      id: ACTIONS_ALLOW_UNSECURE_COMMANDS
+      run: echo 'ACTIONS_ALLOW_UNSECURE_COMMANDS=true' >> $GITHUB_ENV 
      
   pre-commit:
     runs-on: ubuntu-latest
