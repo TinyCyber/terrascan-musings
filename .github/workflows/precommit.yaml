@@ -4,7 +4,7 @@ jobs:
   test:
     runs-on: self-hosted
     env:
-      ACTIONS_ALLOW_UNSECURE_COMMANDS: true:
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
      
   pre-commit:
     runs-on: ubuntu-latest
